@@ -3,7 +3,7 @@ services:
   deudas-container:
     build: .
     ports:
-      - "8000:9001"  # Cambia "9000" por el puerto en el que deseas exponer tu aplicación en la máquina host
+      - "8000:9000"  # Cambia "9000" por el puerto en el que deseas exponer tu aplicación en la máquina host
     environment:
       - MONGODB_URI=${MONGODB_URI}  # Se asegura de que use el MONGODB_URI de tu .env
     env_file:

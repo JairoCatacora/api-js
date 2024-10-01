@@ -13,22 +13,21 @@ const recordPagosRoutes = require("./routes/recordpagos");
 //swager
 const swagerUI=require("swagger-ui-express");
 const swaggerJSDoc = require('swagger-jsdoc');
-const swaggerSpec={
-  definition : {
-    openapi:"3.0.0",
-    info : {
-      title:"Node mongo Db api",
-      version : "1.0.0"
+const swaggerSpec = {
+  definition: {
+    openapi: "3.0.0",
+    info: {
+      title: "Node mongo Db api",
+      version: "1.0.0",
     },
-    servers:[
+    servers: [
       {
-        url:"http://localhost:9000"
-      }
-    ]
-
+        url: "http://44.202.236.184:8000", // Cambia "localhost" a tu IP pública de AWS
+      },
+    ],
   },
-  apis :[`${path.join(__dirname,"./routes/*.js")   } `]
-}
+  apis: [`${path.join(__dirname, "./routes/*.js")}`],
+};
 
 
 // Middleware para analizar JSON en las solicitudes

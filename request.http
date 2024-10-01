@@ -3,7 +3,7 @@ POST http://localhost:9000/api/deudas HTTP/1.1
 Content-Type: application/json
 
 {
-  "id_Deuda": 300,
+  "id_Deuda": 2300,
   "numeroCuotas": 24,
   "montoPorCuota": 300.50,
   "fechaInicio": "2025-01-01T00:00:00Z",
@@ -37,7 +37,7 @@ Content-Type: application/json
 
 {
   "id_Record": 1,
-  "id_Deuda": 200,
+  "id_Deuda": 2300,
   "fechaPago": "2025-01-15T00:00:00.000Z",
   "montoPagado": 300.50,
   "metodoPago": "efectivo",
