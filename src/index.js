@@ -22,7 +22,7 @@ const swaggerSpec = {
     },
     servers: [
       {
-        url: "http://44.202.236.184:8000", // Cambia "localhost" a tu IP pública de AWS
+        url: "http://34.232.98.170:8000", // Cambia "localhost" a tu IP pública de AWS
       },
     ],
   },
