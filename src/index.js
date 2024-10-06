@@ -3,7 +3,7 @@
 const express = require('express');
 const mongoose = require("mongoose");
 const app = express();
-const port = process.env.PORT || 9000; // Cambia 9000 a otro puerto, como 9001
+const port = 3000; // Cambia 9000 a otro puerto, como 9001
 const path = require ("path")
 require("dotenv").config();
 
